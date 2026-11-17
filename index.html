@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Moazzam Ali Portfolio</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Moazzam Ali" />
+	</head>
+	<body>
+		<h1>Portfolio.</h1>
+
+		<!----------------Introduction section--------------->
+		<section>
+			<img
+				src="profile-img.jpg"
+				alt="a portait of headshot of a man"
+				title="Profile picture"
+				width="200"
+			/>
+
+			<h2>Introduction</h2>
+			<p class="intro-description">
+				My name is <strong>Moazzam Ali</strong>. I am developing web apps. I am
+				using <mark>HTML</mark>, <mark>CSS</mark> and<mark> JS</mark>
+				languages. I love solving problems through critical thinking. I have a
+				curious mind which is always seeking answers to alot of questions. My
+				goal is not to be just a coder but a
+				<em>Software Engineer.</em>
+			</p>
+			<hr />
+		</section>
+
+		<!--------------About section------------------>
+		<section id="about-section">
+			<div>
+				<h2>About</h2>
+
+				<h3>Skills</h3>
+				<ol>
+					<li>Critical thinking</li>
+					<li>Problem Solving</li>
+					<li>Self Learning</li>
+					<li>Consistency</li>
+					<li>Adaptibility</li>
+				</ol>
+			</div>
+
+			<div>
+				<h3>Education</h3>
+				<ul>
+					<li>BS(EE) &emsp; -- &emsp; <em>FAST NUCES</em></li>
+					<li>FSC(pre eng) &emsp; -- &emsp; <em>Govt College</em></li>
+					<li>Matric &emsp; -- &emsp; <em>Govt High School</em></li>
+				</ul>
+			</div>
+
+			<hr />
+		</section>
+
+		<!------------Useful links section------------->
+		<section id="useful-links">
+			<h2>Useful Links</h2>
+			<a href="https://www.linkedin.com" target="_blank">LinkedIn</a>&emsp;
+			<a href="https://www.facebook.com" target="_blank">Facebook</a>&emsp;
+			<a href="https://www.smalltagram.com" target="_blank">Instagram</a>
+			<hr />
+		</section>
+
+		<!---------------Contact form section-------------------->
+		<section id="contact-section">
+			<h2>Contact Me</h2>
+
+			<form action="#" class="contact-form" method="post">
+				<label for="full-name">Full Name</label><br />
+				<input
+					type="text"
+					id="full-name"
+					name="full_name"
+					placeholder="Your name"
+					required
+				/><br />
+
+				<label for="email">Email</label><br />
+				<input
+					type="email"
+					id="email"
+					name="email"
+					placeholder="youremail@email.com"
+					required
+				/><br />
+
+				<label for="password">Password</label><br />
+				<input type="password" id="password" name="password" required /><br />
+
+				<label for="date">Date</label><br />
+				<input type="date" id="date" name="date" min="2026-10-31" /><br />
+
+				<label for="age">Age</label><br />
+				<input
+					type="number"
+					id="age"
+					name="age"
+					placeholder="eg: 48"
+					min="18"
+					max="60"
+					step="1"
+				/><br />
+
+				<p>Gender:</p>
+				<label for="male">Male</label>
+				<input type="radio" id="male" name="gender" value="Male" />
+				<label for="female">Female</label>
+				<input type="radio" id="female" name="gender" value="Female" /><br />
+
+				<p>Interests:</p>
+				<label for="frontend">Frontend Development</label>
+				<input
+					type="checkbox"
+					id="frontend"
+					name="interest"
+					value="frontend development"
+				/><br />
+				<label for="backend">Backend Development</label>
+				<input
+					type="checkbox"
+					id="backend"
+					name="interest"
+					value="backend development"
+				/><br />
+				<label for="responsive">Responsive Design</label>
+				<input
+					type="checkbox"
+					id="responsive"
+					name="interest"
+					value="responsive design"
+					checked
+				/><br />
+				<label for="marketing">Digital Marketing</label>
+				<input
+					type="checkbox"
+					id="marketing"
+					name="interest"
+					value="digital marketing"
+					disabled
+				/><br /><br />
+
+				<label for="message">Message</label><br />
+				<textarea
+					id="message"
+					name="message"
+					class="message-area"
+					rows="6"
+					placeholder="type your message here"
+				></textarea
+				><br />
+
+				<button type="submit" value="submit">Submit</button>
+				<button type="reset" value="reset">Reset</button>
+			</form>
+		</section>
+	</body>
+</html>
